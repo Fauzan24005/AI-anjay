@@ -1,0 +1,6 @@
+streamlit
+pandas
+datasets
+google-genai
+fsspec
+huggingface_hub
