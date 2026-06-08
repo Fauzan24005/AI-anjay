@@ -5,7 +5,7 @@ from google import genai
 from google.genai import types
 
 # KONFIGURASI AWAL
-GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "AQ.Ab8RN6JPK0K8pMvFqlF3QgXgHuR-YnPE5khW-Ruq0tW5Z_4N-Q") 
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "API") 
 client = genai.Client(api_key=GEMINI_API_KEY)
 
 # FUNGSI GUARDRAIL (Sesuai dengan logikamu)
